@@ -1,5 +1,5 @@
-<?php
-include 'koneksi.php';
+<?php 
+include'koneksi.php';
 $id = $_POST['id'];
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -11,4 +11,4 @@ echo '<script>
 alert("Data Berhasil Disimpan");
 location="indexx.php?"
 </script>';
-?>
+ ?>
