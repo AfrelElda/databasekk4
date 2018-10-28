@@ -2,18 +2,18 @@
 <html>
 <head>
 	<title>Membuat CRUD Dengan PHP Dan MySQL - Menampilkan data dari database</title>
-	<link rel="stylesheet" type="text/css" href="coba.css">
+	<link rel="stylesheet" type="text/css" href="crud.css">
 </head>
 <body>
 <div class="judul">
-		<h1>Membuat CRUD Dengan PHP Dan MySQL</h1>
-		<h2>Menampilkan data dari database</h2>
+		<h1><font color=#CCCCCC>Membuat CRUD Dengan PHP Dan MySQL</font></h1>
+		<h2><font color=#CCCCCC>Menampilkan data dari database</font></h2>
 
 	</div>
 
 	<br/>
 
-	<a href="indexx.php">Lihat Semua Data</a>
+	<a href="indexx.php"><font color=#CCCCCC>Lihat Semua Data</font></a>
 
 	<br/>
 	<h3>Input data baru</h3>

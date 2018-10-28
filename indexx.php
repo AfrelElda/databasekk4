@@ -6,7 +6,7 @@
 <body>
 
   <div class="container">
-    <h2><center>DATA PESERTA</center></h2>
+    <h2><center ><font color=#CCCCCC>DATA PESERTA</font></center></h2>
     <table class=" table table-bordered table-hovered" align="center">
   <tr>
     <th>id</th>
@@ -29,8 +29,8 @@
       <td><?php echo $baris_data['level']; ?></td>
       <td><?php echo $baris_data['fullname']; ?></td>
       <td>
-      <a class="edit" href="ubah.php?id=<?php echo $baris_data['id']; ?>">Edit</a> 
-      <a class="hapus" href="hapus.php?id=<?php echo $baris_data['id']; ?>">Hapus</a>
+      <a class="edit" href="ubah.php?id=<?php echo $baris_data['id']; ?>"><font color=#002C51>EDIT |</font></a> 
+      <a class="hapus" href="hapus.php?id=<?php echo $baris_data['id']; ?>"><font color=#002C51> DELETE</font></a>
       </td>
     </tr>
 <?php } ?>

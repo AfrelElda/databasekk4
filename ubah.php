@@ -6,12 +6,12 @@
 </head>
 <body>
 	<div class="judul">
-		<h2>Edit data pada database</h2>
+		<h2><font color=#CCCCCC>Edit Data Pada Database</font></h2>
 	</div>
 	<br/>
 
 	<section id="input-form">
-		<form action="edit-aksi.php" method="post">
+		<form action="editan-aks.php" method="post">
 			<div class="form">
 				<label>Id</label>
 				<input type="text" name="id">

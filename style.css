@@ -1,6 +1,9 @@
+body{
+    background-color: #204D72;
+}
 table{
 	border-collapse: collapse;
-		width: 80%;
+		width: 90%;
 }
 table th{
 border: 1px solid #000;
@@ -8,8 +11,9 @@ border: 1px solid #000;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: rgb(255, 76, 130);
-    color: pink;
+    border: 2px solid #EFF2F4;
+    background-color: #4183A5;
+    color: #CCCCCC;
     text-align: center;
 }
 table td{
@@ -17,9 +21,10 @@ table td{
     padding: 2px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(190, 93, 122);
+    background-color: #A3D2EF;
+    border: 2px solid #EFF2F4;
     text-align: left;
-    color: white;
+    color: #002C51;
 }
 /*form*/
 section#input-form{
@@ -29,8 +34,8 @@ section#input-form{
     margin-right: 10%;
     margin-top: 30px;
     border-radius: 6px;
-    background-color: #efefef;
-    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    background-color: #A3D2EF;
+    box-shadow: 0 0 7px 0px rgb(155, 192, 221);
     padding: 30px;
 }
 #input-form .form{
@@ -58,6 +63,7 @@ section#input-form{
 #input-form .Gender .val {
     margin-left: 10px;
     background-color: white;
+
 }
 #input-form .Skill{
     width: 100%;
@@ -79,12 +85,13 @@ br {
 label{
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
-    color: #494949;
+    color:#163651;
     font-weight: 600;
 }
 input{
     font-family: 'Helvetica', sans-serif;
     padding: 10px 20px 10px 20px;
+    color: #163651;
     outline: none;
     border-radius: 3px;
     border: 1px solid #8888;
@@ -95,12 +102,12 @@ input{
 
 /*submit button*/
 .bg-blue{
-    background-color:  rgb(255, 57, 57);
+    background-color: #0E5154;
     color: #fff;
-    box-shadow: 0 0 7px 0px #ffffff;
-    border: 1px solid #ff2222;
+    box-shadow: 0 0 7px 0px #89ACC9;
+    border: 1px solid #89ACC9;
 }
 .bg-blue:hover{
-    background-color: #ff5858;
+    background-color: #3A92A0;
     color: #fff;
 }
